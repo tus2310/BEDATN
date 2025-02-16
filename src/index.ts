@@ -25,6 +25,8 @@ const {
 } = require("./utils/Cloudinary");
 const JWT_SECRET = process.env.JWT_SECRET as string;
 const router = Router();
+
+// database version1
 mongoose
   .connect(
    "mongodb+srv://ungductrungtrung:Jerry2912@cluster0.4or3syc.mongodb.net/",
