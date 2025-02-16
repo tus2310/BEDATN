@@ -29,7 +29,8 @@ const router = Router();
 // database version1
 mongoose
   .connect(
-   "mongodb+srv://ungductrungtrung:Jerry2912@cluster0.4or3syc.mongodb.net/",
+  //  "mongodb+srv://ungductrungtrung:Jerry2912@cluster0.4or3syc.mongodb.net/",
+   "mongodb+srv://dotu123:dotu123@cluster0.ozb59.mongodb.net/",
     {
       //   useNewUrlParser: true,
       //   useUnifiedTopology: true,
